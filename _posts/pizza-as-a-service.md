@@ -4,8 +4,8 @@ title: Pizza as a Service 2.0
 layout: post
 permalink: /pizza-as-a-service/
 background: '#1E88E5'
-slides:
 
+slides:
 * title: Pizza as a Service 2.0
   slide-data: |
   Computación en la Nube<br>
