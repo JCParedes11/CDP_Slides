@@ -1,4 +1,3 @@
-
 ---
 title: Pizza as a Service 2.0
 layout: post
@@ -7,25 +6,16 @@ theme: beige
 
 slides:
  - title: Pizza as a Service 2.0
-   slide-data: |
-     Computación en la Nube<br>
-     Tarea #997<br>
-     Julio Paredes
+   slide-data: Computación en la Nube<br>Tarea #997<br>Julio Paredes
 
  - title: ¿Qué es Pizza as a Service?
-   slide-data: |
-     Es una analogía utilizada para explicar los diferentes modelos de servicio en la nube y cómo se distribuyen las responsabilidades entre el usuario y el proveedor.
+   slide-data: Es una analogía utilizada para explicar los diferentes modelos de servicio en la nube y cómo se distribuyen las responsabilidades entre el usuario y el proveedor.
 
  - title: Modelos de Servicio en la Nube
-   slide-data: |
-     IaaS - Infrastructure as a Service<br>
-     PaaS - Platform as a Service<br>
-     SaaS - Software as a Service
+   slide-data: IaaS - Infrastructure as a Service<br>PaaS - Platform as a Service<br>SaaS - Software as a Service
 
  - title: IaaS
-   slide-data: |
-     El proveedor administra la infraestructura.<br>
-     El usuario administra sistemas operativos, aplicaciones y datos.
+   slide-data: El proveedor administra la infraestructura.<br> El usuario administra sistemas operativos, aplicaciones y datos.
 
  - title: Ventajas de IaaS
    slide-data: |
@@ -102,12 +92,8 @@ slides:
 ---
 
 {% for slide in page.slides %}
-
-<section data-background="{% if slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}">
-<h1>{{slide.title}}</h1>
-{{ slide.slide-data }}
-</section>
-
+                    
+<section data-background="{% if slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}"><h1>{{slide.title}}</h1>{{ slide.slide-data }}</section>
+                    
 {% endfor %}
-```
 
