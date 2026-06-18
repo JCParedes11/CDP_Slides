@@ -1,7 +1,7 @@
 
-## Tarea 997
+## Slides
 
-Slides de la tarea 997
+Repositorio que contiene el sitio web con los slides de las distintas tareas
 
 sitio web
-https://jcparedes11.github.io/Tarea997/
+https://jcparedes11.github.io/CDP_Slides/

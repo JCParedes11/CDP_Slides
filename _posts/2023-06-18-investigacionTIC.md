@@ -10,7 +10,7 @@ slides:
  
      
  - title: 1.1 Solucion estratificada de problemas en TIC
-   slide-data: <b>Descripción:</b><br>
+   slide-data: Descripción:</b><br>
    Es un enfoque que divide sistemas complejos en capas o niveles organizados.<br><br>
    <b>Características:</b><br>
    • División por capas<br>
@@ -28,7 +28,7 @@ slides:
 
      
  - title: 1.1.a Virtualización por interpretación pura
-   slide-data: <b>Descripción:</b><br>
+   slide-data: Descripción:</b><br>
    Ejecuta instrucciones del sistema invitado una por una mediante interpretación directa.<br><br>
    <b>Características:</b><br>
    • Interpretación instrucción por instrucción<br>
@@ -46,7 +46,7 @@ slides:
 
      
  - title: 1.1.b Virtualización por recompilación dinámica
-   slide-data: <b>Descripción:</b><br>
+   slide-data: Descripción:</b><br>
    Traduce bloques de instrucciones a código nativo durante la ejecución.<br><br>
    <b>Características:</b><br>
    • Traducción en tiempo real<br>
@@ -64,7 +64,7 @@ slides:
 
      
  - title: 1.1.c Virtualización por hipervisión (bare metal)
-   slide-data: <b>Descripción:</b><br>
+   slide-data: Descripción:</b><br>
    El hipervisor se ejecuta directamente sobre el hardware físico para crear máquinas virtuales.<br><br>
    <b>Características:</b><br>
    • Acceso directo al hardware<br>
